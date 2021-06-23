@@ -2,7 +2,7 @@
 
 Dear reader! This is a chance to show of your coding skills with this kata - a "fun" little coding exercise, which is designed to practice your abilities, but we've found that they're a great way for people to demonstrate their programming prowess.
 
-Please spend no more than 30 minutes on the task :-) Please use node.js for your solution, but feel free to break out of the provided folder structure. We're happy to accept solutions demonstrating use of TDD. Also please note that there's no prize for a 'finished' solution! Please comment your thought process in the code itself
+Please spend no more than 30 minutes on the task :-) Please use node.js for your solution, but feel free to break out of the provided folder structure. We're happy to accept solutions demonstrating use of TDD. Also please note that there's no prize for a 'finished' solution! Please comment your thought process in the code itself. If you have thoughts about how the whole system would look, please feel free to share in a NOTES.md file.
 
 Please provide your solution as a separate public copy of this repository.
 
