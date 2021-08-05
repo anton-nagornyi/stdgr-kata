@@ -12,15 +12,27 @@ At Stedger we're handling a lot of products, which all have some sort of product
 
 Of course when viewing a product as a customer, it only has a single title, and a single description, so the data needs to be merged to create the final product so the title could be from one data source, while the description or images is from another.
 
-Please demonstrate how you would implement this data aggregation with prioritized data sources.
+Please demonstrate how you would implement this data aggregation with prioritized data layers.
 
-An example aggregated product could look like this:
+An example aggregated product could look like this, with the following data layers:
 ```
-const product = {
+const productLayers = [
+  {
+    title: 'Red pants',
+    description: 'Red pants are highly addictive, and made out of awesome stuff only!',
+  },
+  {
+    title: 'Red pants from manufacturor title',
+    tags: ['red', 'pants', 'awesome'],
+    images: [{ src: 'https://picsum.photos/200' }, { src: 'https://picsum.photos/350' }]
+  }
+]
+
+const output = {
   title: 'Red pants',
   description: 'Red pants are highly addictive, and made out of awesome stuff only!',
   tags: ['red', 'pants', 'awesome'],
-  images: [{ src: 'https://picsum.photos/200', src: 'https://picsum.photos/350' }]
+  images: [{ src: 'https://picsum.photos/200' }, { src: 'https://picsum.photos/350' }]
 }
 ```
 
