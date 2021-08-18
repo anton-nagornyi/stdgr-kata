@@ -1,3 +1,12 @@
+# Implementation
+
+Dear viewer to see this in action please do:
+```shell script
+npm install
+npm run start
+curl --location --request GET 'http://localhost:5000/products'
+```
+
 # Stedger Kata
 
 Dear reader! This is a chance to show of your coding skills with this kata - a "fun" little coding exercise, which is designed to practice your abilities, but we've found that they're a great way for people to demonstrate their programming prowess.
